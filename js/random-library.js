@@ -17,3 +17,8 @@ function randomRGB() {
     256
   )})`;
 }
+
+// random array element return
+function randomElement(anArray) {
+  return anArray[randomInt(0, anArray.length)];
+}
