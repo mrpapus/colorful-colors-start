@@ -49,5 +49,6 @@ function displayStartingLetter() {
 }
 
 function randomColor() {
-  outputEl.innerHTML = "Random Color";
+  let randColor = randomElement(colors);
+  outputEl.innerHTML = `<div style="background-color: ${randColor};">${randColor}</div> `;
 }
